@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1d29e928-3ba8-4f74-981e-b7fc101f72be" name="WE-Test local" url="http://localhost/we-test/">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\we-test" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="0a126d49-e649-4a83-a69f-4e51d2880151" name="WE-Test Test">
+        <fileTransfer accessType="SFTP" host="www496.your-server.de" port="22" sshConfigId="fb88b306-fa97-4ea1-824c-7ca184201ca9" sshConfig="webworb@www496.your-server.de:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ea63010a-00ac-4ffa-b990-3d66c2ea6259" name="WE-Test Prod">
+        <fileTransfer accessType="SFTP" host="www496.your-server.de" port="22" sshConfigId="fb88b306-fa97-4ea1-824c-7ca184201ca9" sshConfig="webworb@www496.your-server.de:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
